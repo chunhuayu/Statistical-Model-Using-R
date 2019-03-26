@@ -1,4 +1,4 @@
-* the name of project of "Assessment for Provider for Free"
+* Work on the statistical relationship between MH4 and MH1, MH2, MH3
 PROC IMPORT OUT=provider DATAFILE="H:\Active Clients\Hayburn, Anna\Survey Data.xlsx"
             DBMS=xlsx REPLACE;
 			GETNAMES=YES;
