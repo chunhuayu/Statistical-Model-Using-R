@@ -8,7 +8,7 @@ y=sales[,3]
 x1=sales[,1]
 x2=sales[,2]
 
-# multiple linear regression model: Y=b0+b1*X1+b2*X2+e
+# multiple linear regression model without interaction term X1*X2 : Y=b0+b1*X1+b2*X2+e
 sales.ml=lm(y~x1+x2)
 
 # anova test
