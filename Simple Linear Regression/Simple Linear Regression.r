@@ -24,6 +24,7 @@ summary(SLR.fit)
 
 plot(Y~X, pch=19,cex=1, main="Data on Lot Size and Work Hours")
 lines(X,fitted.values(SLR.fit),lwd=2,col=2)
+confint(SLR.fit)
 
 # The regression equation is Y = 62.4 + 3.57 X
 # Se(b0)= 26.177, Se(b1)=0.347
