@@ -35,6 +35,12 @@ summary(sales.ml)
 # Multiple R-squared:  0.9167,	Adjusted R-squared:  0.9075 
 # F-statistic:  99.1 on 2 and 18 DF,  p-value: 1.921e-10
 
+# plot residuals vs fitted values(yhat)
+plot(fitted(sales.ml),residuals(sales.ml))
+
+# test nomility of residuals
+shapiro.test(residuals(sales.ml))
+
 # Calculations in matrix format
 one=rep(1,21)
 x=cbind(one,x1,x2)
