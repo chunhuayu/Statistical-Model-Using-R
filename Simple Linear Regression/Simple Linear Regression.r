@@ -22,4 +22,12 @@ summary(SLR.fit)
 # Multiple R-squared:  0.8215,	Adjusted R-squared:  0.8138 
 # F-statistic: 105.9 on 1 and 23 DF,  p-value: 4.449e-10
 
+plot(Y~X, pch=19,cex=1, main="Data on Lot Size and Work Hours")
+lines(X,fitted.values(SLR.fit),lwd=2,col=2)
+
 # The regression equation is Y = 62.4 + 3.57 X
+# Se(b0)= 26.177, Se(b1)=0.347
+# Hypotheses for b0: H0: b0=0;
+# t(b0)=2.382, P-value=0.0259 which means the intercept is significant for this model.
+# Hypotheses for b1: H0: b1=0;
+# t(b1)=10.290, P-value=4.45e-10 which means predictor variable X and response Y has a significant linear relationship.
