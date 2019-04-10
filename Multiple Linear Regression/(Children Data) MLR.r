@@ -7,6 +7,22 @@ sales=read.csv("//Users//phoebeyu//Documents//Academic Class//Method of Statisti
 y=sales[,3]
 x1=sales[,1]
 x2=sales[,2]
+x3=x1*x2
+
+# multiple linear regression model with interaction term X1*X2 : Y=b0+b1*X1+b2*X2+b3*x3+e
+# the p value of interaction term is 0.8, there is a strong evidence that the interaction is insignificant
+sales.ml0=lm(y~x1+x2+x3)
+anova(sales.ml0)
+# Analysis of Variance Table
+
+# Response: y
+#          Df  Sum Sq Mean Sq  F value    Pr(>F)    
+# x1         1 23371.8 23371.8 182.8869 1.584e-10 ***
+# x2         1   643.5   643.5   5.0353   0.03844 *  
+# x3         1     8.4     8.4   0.0660   0.80034    
+# Residuals 17  2172.5   127.8                       
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 # multiple linear regression model without interaction term X1*X2 : Y=b0+b1*X1+b2*X2+e
 sales.ml=lm(y~x1+x2)
