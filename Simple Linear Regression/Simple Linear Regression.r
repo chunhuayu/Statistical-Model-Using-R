@@ -22,6 +22,19 @@ summary(SLR.fit)
 # Multiple R-squared:  0.8215,	Adjusted R-squared:  0.8138 
 # F-statistic: 105.9 on 1 and 23 DF,  p-value: 4.449e-10
 
+qqnorm(residuals(SLR.fit))
+qqline(residuals(SLR.fit))
+
+# Test normality
+shapiro.test(residuals(SLR.fit))
+
+# output:
+# Shapiro-Wilk normality test
+
+# data:  residuals(SLR.fit)
+# W = 0.9789, p-value = 0.8626
+
+
 plot(Y~X, pch=19,cex=1, main="Data on Lot Size and Work Hours")
 lines(X,fitted.values(SLR.fit),lwd=2,col=2)
 confint(SLR.fit)
