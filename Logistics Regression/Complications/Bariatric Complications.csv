@@ -1,0 +1,145 @@
+﻿id,Surgery,Complication_Description ,Early Vs Late,Complication
+1,Sleeve,Yes (Blood loss),Early,1
+6,Sleeve,Yes (Lung),Early,1
+79,Bypass,Yes (SSI),Early,1
+88,Bypass,Yes (Anast Bleed),Early,1
+89,Bypass,Yes (Anast Bleed),Early,1
+90,Bypass,Yes (Marg Ulcer),Early,1
+94,Bypass,Yes (Marg Ulcer),Early,1
+96,Bypass,Yes (Marg Ulcer),Early,1
+99,Bypass,Yes (Anesthesia),Early,1
+100,Bypass,Yes (Bowel Perf),Early,1
+101,Bypass,Yes (Resp),Early,1
+102,Bypass,Yes (Sepsis),Early,1
+2,Sleeve,Yes (Vitamin),Late,2
+3,Sleeve,Yes (Vitamin),Late,2
+4,Sleeve,Yes (Vitamin),Late,2
+5,Sleeve,Yes (Vitamin),Late,2
+7,Sleeve,Yes (Schatzki's),Late,2
+8,Sleeve,Yes (Vitamin),Late,2
+75,Bypass,Yes (Perf Ulcer),Late,2
+76,Bypass,Yes (Marg Ulcer),Late,2
+77,Bypass,Yes (Per Ulcer),Late,2
+78,Bypass,Yes (Marg Ulcer),Late,2
+80,Bypass,Yes (Inf Biloma),Late,2
+81,Bypass,Yes (Perf Ulcer),Late,2
+82,Bypass,Yes (Gall Panc),Late,2
+83,Bypass,Yes (Marg Ulcer),Late,2
+84,Bypass,Yes (Incis Hernia),Late,2
+85,Bypass,Yes (Vitamin),Late,2
+86,Bypass,Yes (Vitamin),Late,2
+87,Bypass,Yes (Vitamin),Late,2
+91,Bypass,Yes (Dysphagia),Late,2
+92,Bypass,Yes (Marg Ulcer),Late,2
+93,Bypass,Yes (Vitamin),Late,2
+95,Bypass,Yes (Vitamin),Late,2
+97,Bypass,Yes (Stricture),Late,2
+98,Bypass,Yes (Perf Ulcer),Late,2
+9,Sleeve,No,None,0
+10,Sleeve,No,None,0
+11,Sleeve,No,None,0
+12,Sleeve,No,None,0
+13,Sleeve,No,None,0
+14,Sleeve,No,None,0
+15,Sleeve,No,None,0
+16,Sleeve,No,None,0
+17,Sleeve,No,None,0
+18,Sleeve,No,None,0
+19,Sleeve,No,None,0
+20,Sleeve,No,None,0
+21,Sleeve,No,None,0
+22,Sleeve,No,None,0
+23,Sleeve,No,None,0
+24,Sleeve,No,None,0
+25,Sleeve,No,None,0
+26,Sleeve,No,None,0
+27,Sleeve,No,None,0
+28,Sleeve,No,None,0
+29,Sleeve,No,None,0
+30,Sleeve,No,None,0
+31,Sleeve,No,None,0
+32,Sleeve,No,None,0
+33,Sleeve,No,None,0
+34,Sleeve,No,None,0
+35,Sleeve,No,None,0
+36,Sleeve,No,None,0
+37,Sleeve,No,None,0
+38,Sleeve,No,None,0
+39,Sleeve,No,None,0
+40,Sleeve,No,None,0
+41,Sleeve,No,None,0
+42,Sleeve,No,None,0
+43,Sleeve,No,None,0
+44,Sleeve,No,None,0
+45,Sleeve,No,None,0
+46,Sleeve,No,None,0
+47,Sleeve,No,None,0
+48,Sleeve,No,None,0
+49,Sleeve,No,None,0
+50,Sleeve,No,None,0
+51,Sleeve,No,None,0
+52,Sleeve,No,None,0
+53,Sleeve,No,None,0
+54,Sleeve,No,None,0
+55,Sleeve,No,None,0
+56,Sleeve,No,None,0
+57,Sleeve,No,None,0
+58,Sleeve,No,None,0
+59,Sleeve,No,None,0
+60,Sleeve,No,None,0
+61,Sleeve,No,None,0
+62,Sleeve,No,None,0
+63,Sleeve,No,None,0
+64,Sleeve,No,None,0
+65,Sleeve,No,None,0
+66,Sleeve,No,None,0
+67,Sleeve,No,None,0
+68,Sleeve,No,None,0
+69,Sleeve,No,None,0
+70,Sleeve,No,None,0
+71,Sleeve,No,None,0
+72,Sleeve,No,None,0
+73,Sleeve,No,None,0
+74,Sleeve,No,None,0
+103,Bypass,No,None,0
+104,Bypass,No,None,0
+105,Bypass,No,None,0
+107,Bypass,No,None,0
+108,Bypass,No,None,0
+109,Bypass,No,None,0
+110,Bypass,No,None,0
+111,Bypass,No,None,0
+112,Bypass,No,None,0
+113,Bypass,No,None,0
+114,Bypass,No,None,0
+115,Bypass,No,None,0
+116,Bypass,No,None,0
+117,Bypass,No,None,0
+118,Bypass,No,None,0
+119,Bypass,No,None,0
+120,Bypass,No,None,0
+121,Bypass,No,None,0
+122,Bypass,No,None,0
+123,Bypass,No,None,0
+124,Bypass,No,None,0
+125,Bypass,No,None,0
+126,Bypass,No,None,0
+127,Bypass,No,None,0
+128,Bypass,No,None,0
+129,Bypass,No,None,0
+130,Bypass,No,None,0
+131,Bypass,No,None,0
+132,Bypass,No,None,0
+133,Bypass,No,None,0
+134,Bypass,No,None,0
+135,Bypass,No,None,0
+136,Bypass,No,None,0
+137,Bypass,No,None,0
+138,Bypass,No,None,0
+139,Bypass,No,None,0
+140,Bypass,No,None,0
+141,Bypass,No,None,0
+142,Bypass,No,None,0
+143,Bypass,No,None,0
+144,Bypass,No,None,0
+145,Bypass,No,None,0
