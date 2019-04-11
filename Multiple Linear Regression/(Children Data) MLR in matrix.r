@@ -1,3 +1,8 @@
+sales=read.csv("//Users//phoebeyu//Documents//Academic Class//Method of Statistics//Multiple linear regression//example 1.csv")
+y=sales[,3]
+x1=sales[,1]
+x2=sales[,2]
+
 # Calculations in matrix format
 one=rep(1,21)
 x=cbind(one,x1,x2)
