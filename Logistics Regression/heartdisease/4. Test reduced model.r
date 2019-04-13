@@ -37,10 +37,11 @@
 
 # Number of Fisher Scoring iterations: 6
 
-# Test the null hypothesis : the reduced model is true.
+# Test the null hypothesis : the reduced model is true.(-2)log likelihood ratio test follows chi-square distribution. 
 x2=logistic.r$deviance-logistic.f$deviance
-length(logistic.f$coefficients)-length(logistic.r$coefficients)
+d=length(logistic.f$coefficients)-length(logistic.r$coefficients)
+d
 # [1] 7
-> 1-pchisq(x2,7)
+> 1-pchisq(x2,d)
 # [1] 0.1343539
 # p-value of H0 is greater than 0.05, fail to reject H0. Accept the reduced model.
