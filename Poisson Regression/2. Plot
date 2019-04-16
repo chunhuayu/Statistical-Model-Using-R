@@ -1,0 +1,22 @@
+> unity=y.fit/k
+> collator.fit=predict.glm(collator.out,type = 'response',se.fit=TRUE)
+> y.fit=collator.fit$fit
+> yfL=y.fit-2*y.sef
+> yfH=y.fit+2*y.sef
+> library(ggplot2)
+> data.jam=data.frame(a,aa,b,bb,y,y.fit,y.sef,yfL,yfH,unity)
+> colnames(data.jam)=c("a","aa","b","bb","y","y.fit","y.sef","yfL","yfH","unity")
+
+# Plot "Air Pressure, Bar Tightness Versus Jams/sec"
+> ggplot(data.jam,aes(a,y))
++   geom_line(data = data.jam, aes(a,y.fit,color=bb,linetype=bb))
++   geom_point(data = data.jam, aes(a,y.fit,shape=bb,color=bb),size=2 )
++   scale_x_continuous(breaks = c(1,2,3))
++   labs(y='Jams/sec',x='Air Pressure',title = "Air Pressure, Bar Tightness Versus Jams/sec")
+
+# Plot "Air Pressure, Bar Tightness Versus Jams"
+> ggplot(data.jam,aes(a,y)) 
++   geom_line(data = data.jam, aes(a,y.fit,color=bb,linetype=bb))
++   geom_point(data = data.jam, aes(a,y,shape=bb,color=bb),size=2 )
++   scale_x_continuous(breaks = c(1,2,3))
++   labs(y='Jams',x='Air Pressure',title = "Air Pressure, Bar Tightness Versus Jams")
