@@ -1,3 +1,7 @@
+# Background: An engineering researcher group works on a project aimed at reducing jams on a large collating machine.
+# they ran the machine at 3"Air Pressure" settings and 2" Bar Tightness" conditions and 
+# observe y = the number of machine jams experiencedj in k seconds of machine run time.
+# (Run time does not include the machine "down" time required to fix the jams). Their results as Jams.csv
 > a=c(1,2,3,1,2,3)
 > b=c(1,1,1,2,2,2)
 > y=c(27,21,33,15,6,11)
