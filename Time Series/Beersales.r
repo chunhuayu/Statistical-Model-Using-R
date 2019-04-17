@@ -1,0 +1,23 @@
+# assignment completed in chapter 3 of Timeseries Analysis by John D. Cryer
+# copyright Chunhua Yu -2019
+# Wright State University -Statistics
+# 3.6(a)
+library('TSA')
+data("beersales")
+plot(beersales,ylab='Monthly Sales',type='o')
+# 3.6(b)
+plot(beersales,ylab='Monthly Sales',type='l')
+points(y=beersales,x=time(beersales),pch=as.vector(season(beersales)))
+# 3.6(c)
+month.=season(beersales)
+Bsales.lm=lm(beersales~month.)
+summary(Bsales.lm)
+# 3.6(d)
+plot(y=rstudent(Bsales.lm),x=as.vector(time(beersales)),type='l',xlab = 'Time',ylab = 'Standardized Residuals')
+points(y=rstudent(Bsales.lm),x=as.vector(time(beersales)),pch=as.vector(season(beersales)))
+# 3.6(e)
+Bsales.lm2=lm(beersales~month.+time(beersales)+I(time(beersales)^2))
+summary(Bsales.lm2)
+# 3.6(f)
+plot(y=rstudent(Bsales.lm2),x=as.vector(time(beersales)),type='l',xlab='Time',ylab='Standardized Residuals')
+points(y=rstudent(Bsales.lm2),x=as.vector(time(beersales)),pch=as.vector(season(beersales)))
