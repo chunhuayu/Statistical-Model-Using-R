@@ -1,3 +1,14 @@
+### Background: This is a study that was undertaken to dermine the strength of association between several risk
+### factors and the duration of pregnancies. the risk factors considered were mother's age, nutritional status,
+### history of tobacco use , and history of alcohol use. the response of interest, pregnancy duration, is a three-category
+### variable that was coded as follows:
+# --------------------------------------------#           #------------------------------------------------#
+# y(i)  Pregnancy duration Category.          #           # age(i)                  Class                  #
+# 1     Preterm (less than 36 weeks).         #           #  1      Less than or equal to 20 years of age  #
+# 2     Intermediate term (36 to 37 weeks)    #           #  2      21 to 30 years of age                  #
+# 3     Full term(38 weeks or greater)        #           #  3      Greater than 30 years of age           #
+#---------------------------------------------#           #------------------------------------------------#
+
 ### Doing this model will use the following packages: "foreign" and "nnet"
 > library(foreign)
 > library(nnet)
